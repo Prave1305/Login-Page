@@ -17,19 +17,19 @@ body{
     color:blue;
 }
 
-.login-form, .registration-form h1{
+.login-form h1, .registration-form h1{
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     margin: 40px 0;
 }
 
-.login-form, .registration-form p {
+.login-form p, .registration-form p {
     font-size: 20px;
     margin: 15px 0; 
 
 }
-.login-form, .registration-form input{
+.login-form input, .registration-form input{
     font-size: 16px;
     width: 100%;
     padding: 15px 10px;
@@ -38,7 +38,7 @@ body{
     border-radius: 5px;
 }
 
-.login-form, .registration-form button{
+.login-form button, .registration-form button{
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0;
