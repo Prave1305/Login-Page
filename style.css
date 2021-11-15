@@ -24,7 +24,7 @@ body{
     margin: 40px 0;
 }
 
-.login-form p, .registration-form p {
+.login-form label, .registration-form label {
     font-size: 20px;
     margin: 15px 0; 
 
