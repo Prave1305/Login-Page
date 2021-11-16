@@ -3,13 +3,18 @@
     <head>
         <title>Registration Form</Form></title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="Login.js"></script>
     </head>
     <body>
         <div class="registration-form">
             <h1>Sign Up</h1>
             <form action="signup.html" method="post">
-                <label for=Fname>First Name</label>
-                <input type="text" name="fname" placeholder="First Name">
+                <div>
+                    <label for=Fname>First Name</label>
+                    <input type="text" name="fname" placeholder="First Name">
+                </div>
+                
                 <label for=lname>Last Name</label>
                 <input type="text" name="lname" placeholder="Last Name">
                 <label for=email>Email</label>
@@ -20,9 +25,8 @@
                 <input type="tel" name="phone" placeholder="123-45-678">
                 <label for=date>Date</label>
                 <input type="date" name="date" placeholder="mm/dd/year">
-                <button type="button">Sign Up </button>
+                <button type="button" onclick="login()">Sign Up </button>
             </form>
         </div>
-        <script src="Login.js"></script>
     </body>
 </html>

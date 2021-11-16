@@ -8,13 +8,29 @@ body{
     background: url('./bp.jpg') no-repeat;
     background-size: cover;
 }
-.login-form, .registration-form {
+
+.main-window{
+    display: block;
+}
+
+.left-frame {
+    width: 45%;
+    display: inline-block;
+}
+
+.right-frame {
+    width: 50%;
+    display: inline-block;
+}
+
+
+.login-form, .registration-form{
     width: 350px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
     color:darkblue;
+    /* transform: -50%,-50%; */
+    /* position: absolute; */
 }
 
 .login-form h1, .registration-form h1{
@@ -37,6 +53,10 @@ body{
     outline: none;
     border-radius: 5px;
 }
+
+
+
+
 
 .login-form button, .registration-form button{
     font-size: 18px;
